@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "chatmacro",
+  "version": "${version}",
+  "name": "Chat Macro",
+  "description": "Sendet per Tastendruck eine feste Chatnachricht, genau einmal.",
+  "authors": ["Du"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.chatmacro.ChatMacroClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
